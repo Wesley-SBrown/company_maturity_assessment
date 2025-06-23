@@ -1,0 +1,35 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment folders
+venv/
+env/
+
+# Ignore environment configuration files (e.g., .env files containing sensitive data)
+.env
+
+# Ignore raw data files that are generated
+data/raw/
+data/cleaned/
+
+# Ignore logs or temp files
+*.log
+*.tmp
+*.bak
+
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore coverage reports or other test artifacts
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+
+# Ignore operating system-specific files (macOS, Windows)
+.DS_Store
+Thumbs.db
