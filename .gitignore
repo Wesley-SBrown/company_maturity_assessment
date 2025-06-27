@@ -14,7 +14,6 @@ env/
 # Ignore raw data files that are generated
 data/raw/
 data/cleaned/
-data/ranked/
 
 # Ignore logs or temp files
 *.log
